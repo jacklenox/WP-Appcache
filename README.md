@@ -2,6 +2,10 @@
 
 Allows your WordPress site to leverage the awesomeness of the HTML5 Application Cache.
 
+## Demo
+
+WP AppCache demo site: [wp-appcache-demo.haveposts.com](http://wp-appcache-demo.haveposts.com/)
+
 ## Tell me more
 
 This plugin allows your site to make use of HTML5's Application Cache.
