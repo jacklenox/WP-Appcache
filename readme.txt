@@ -42,7 +42,7 @@ Nothing. The value of this plugin is entirely derived from implicit caching. I.e
 
 == Screenshots ==
 
-Screenshots don't really do this plugin any justice. I could screenshot load times of less than 100 milliseconds, but that would be crass.
+Screenshots don't really do this plugin justice. I could screenshot load times of less than 100 milliseconds, but that would be crass.
 
 == Changelog ==
 
