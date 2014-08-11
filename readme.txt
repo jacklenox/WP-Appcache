@@ -23,6 +23,10 @@ This plugin takes a pragmatic approach and doesn't include any files in the mani
 
 This plugin also makes use of the WordPress Heartbeat API to continue background updates of the cache. This means that in the event of a user, for example, reading a post on your website. When you add a new post, the cache will be  updated while they're reading and when they return to the homepage, the new post will appear (if you have posts on your homepage of course).
 
+= Demo =
+
+See this plugin in action at this demo site: http://wp-appcache-demo.haveposts.com/
+
 == Installation ==
 
 1. Install the plugin directly from your dashboard or upload it to your `plugins` directory
