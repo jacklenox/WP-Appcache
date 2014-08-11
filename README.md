@@ -19,3 +19,13 @@ The important drawback to note here is that the cache is consulted before the se
 This plugin takes a pragmatic approach and doesn't include any files in the manifest. It therefore only uses implicit caching. This means caching anything that the user actually visits. This may be improved upon in future releases.
 
 This plugin also makes use of the WordPress Heartbeat API to continue background updates of the cache. This means that in the event of a user, for example, reading a post on your website. When you add a new post, the cache will be  updated while they're reading and when they return to the homepage, the new post will appear (if you have posts on your homepage of course).
+
+## Further reading
+
+- [Application Cache is a Douchebag](http://alistapart.com/article/application-cache-is-a-douchebag) by Jake Archibald [1]
+- [A Beginner's Guide to Using the Application Cache](http://www.html5rocks.com/en/tutorials/appcache/beginner/) by Eric Bidelman
+- [JavaScript and Application Cache](http://blog.jamesdbloom.com/JavaScriptAndApplicationCache.html) by James D Bloom
+- [Getting off(line): appcache, localStorage for HTML5 apps that work offline - John Allsopp](https://www.youtube.com/watch?v=dN8e-QdYyCk) [2]
+
+[1]: The usefulness of this article sort of invalidates his point – knowing about the gotchas made the experience of building this plugin much more pleasant.
+[2]: It was a workshop of John's at [BDConf](http://bdconf.com/) in Nashville that got me into all this. I also had the great opportunity of sharing my initial thoughts of how to use the Application Cache with WordPress effectively with John, over a beer!
