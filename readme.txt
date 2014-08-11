@@ -1,7 +1,7 @@
 === WP AppCache ===
 Contributors: jacklenox
 Tags: appcache, caching, application cache, html5
-Requires at least: 3.1
+Requires at least: 3.6
 Tested up to: 3.9.2
 Stable tag: 0.1.1
 License: GPL2
