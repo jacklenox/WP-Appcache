@@ -38,7 +38,7 @@ See this plugin in action at this demo site: http://wp-appcache-demo.haveposts.c
 = Why doesn't this plugin have any settings? =
 There don't really need to be any at this stage.
 
-= Does this plugin run cache the dashboard too? =
+= Does this plugin cache the dashboard too? =
 Not yet, but I'm experimenting with this right now, and it's looking pretty awesome!
 
 = What does this plugin place in the manifest file? =
