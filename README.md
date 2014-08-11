@@ -28,4 +28,5 @@ This plugin also makes use of the WordPress Heartbeat API to continue background
 - [Getting off(line): appcache, localStorage for HTML5 apps that work offline - John Allsopp](https://www.youtube.com/watch?v=dN8e-QdYyCk) [2]
 
 [1]: The usefulness of this article sort of invalidates his point – knowing about the gotchas made the experience of building this plugin much more pleasant.
+
 [2]: It was a workshop of John's at [BDConf](http://bdconf.com/) in Nashville that got me into all this. I also had the great opportunity of sharing my initial thoughts of how to use the Application Cache with WordPress effectively with John, over a beer!
