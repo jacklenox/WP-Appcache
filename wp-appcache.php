@@ -63,6 +63,9 @@ add_action( 'save_post', 'wp_appcache_update_timestamp' );
 add_action( 'deleted_post', 'wp_appcache_update_timestamp' );
 add_action( 'trashed_post', 'wp_appcache_update_timestamp' );
 
+// Themes
+add_action( 'after_switch_theme', 'wp_appcache_update_timestamp' );
+
 function wp_appcache_update_timestamp() {
 	update_option( '_wp_appcache_manifest_timestamp', current_time( 'mysql' ) );
 }
