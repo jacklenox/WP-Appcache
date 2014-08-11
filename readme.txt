@@ -52,3 +52,10 @@ Screenshots don't really do this plugin justice. I could screenshot load times o
 
 = 0.1.1 =
 * Initial commit.
+
+== Further reading ==
+
+* [Application Cache is a Douchebag](http://alistapart.com/article/application-cache-is-a-douchebag) by Jake Archibald
+* [A Beginner's Guide to Using the Application Cache](http://www.html5rocks.com/en/tutorials/appcache/beginner/) by Eric Bidelman
+* [JavaScript and Application Cache](http://blog.jamesdbloom.com/JavaScriptAndApplicationCache.html) by James D Bloom
+* [Getting off(line): appcache, localStorage for HTML5 apps that work offline - John Allsopp](https://www.youtube.com/watch?v=dN8e-QdYyCk)
