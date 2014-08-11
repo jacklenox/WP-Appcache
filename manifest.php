@@ -8,27 +8,11 @@
 /* Load WordPress */
 include_once( $_SERVER['DOCUMENT_ROOT'] . '/wp-load.php' );
 
-/* Get the date of the last post modified (what we use for our manifest timestamp) */
-$args = array(
-	'orderby' => 'modified',
-	'order' => 'DESC',
-	'post_status' => 'publish',
-	'post_type' => array( 'any' ),
-	'posts_per_page' => 1
-);
+header( 'Content-Type: text/cache-manifest' );
 
-$wp_appcache_query = new WP_Query( $args );
+echo 'CACHE MANIFEST
 
-while ( $wp_appcache_query->have_posts() ) {
-	$wp_appcache_query->the_post();
-	$wp_appcache_last_modified_content = get_the_modified_date( 'Y-m-d H:i:s' );
-}
-
-header("Content-Type: text/cache-manifest");
-
-echo "CACHE MANIFEST
-
-# version $wp_appcache_last_modified_content v1
+# version ' . get_option( '_wp_appcache_manifest_timestamp' ) . ' v1
 
 CACHE:
 
@@ -36,4 +20,4 @@ CACHE:
 /
 
 NETWORK:
-*";
+*';
