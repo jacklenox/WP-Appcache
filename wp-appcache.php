@@ -23,7 +23,7 @@ register_activation_hook( __FILE__, 'wp_appcache_update_timestamp' );
  *
  * @since 0.1.1
  */
-if ( ! is_admin() && ! is_user_logged_in() ) {
+if ( ! is_admin() ) {
 	add_filter( 'language_attributes', 'wp_appcache_add_manifest_to_language_attributes' );
 
 	function wp_appcache_add_manifest_to_language_attributes( $output ) {
