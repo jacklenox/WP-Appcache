@@ -4,15 +4,14 @@
  *
  * The dynamic manifest file is constructed here
  */
-
-/* Load WordPress */
-include_once( $_SERVER['DOCUMENT_ROOT'] . '/wp-load.php' );
+$session = session_id();
+if ( empty( $session ) ) session_start();
 
 header( 'Content-Type: text/cache-manifest' );
 
 echo 'CACHE MANIFEST
 
-# version ' . get_option( '_wp_appcache_manifest_timestamp' ) . ' v1
+# version ' . $_SESSION['wp_appcache_manifest_timestamp'] . ' v1
 
 CACHE:
 

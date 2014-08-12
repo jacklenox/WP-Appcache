@@ -29,6 +29,11 @@ if ( ! is_admin() && ! in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp
 		if ( ! is_user_logged_in() ) {
 			add_filter( 'language_attributes', 'wp_appcache_add_manifest_to_language_attributes' );
 
+			// Set the timestamp as a session variable
+			$session = session_id();
+			if ( empty( $session ) ) session_start();
+			$_SESSION['wp_appcache_manifest_timestamp'] = get_option( '_wp_appcache_manifest_timestamp' );
+
 			function wp_appcache_add_manifest_to_language_attributes( $output ) {
 				return $output . ' manifest="' . plugins_url( 'manifest.php', __FILE__ ) . '"';
 			}
