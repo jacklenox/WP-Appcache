@@ -50,7 +50,7 @@ Screenshots don't really do this plugin justice. I could screenshot load times o
 
 == Changelog ==
 
-= 0.1.1 =
+= 0.1.2 =
 * Initial commit.
 
 == Further reading ==
