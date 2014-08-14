@@ -3,7 +3,7 @@
  * Plugin Name: WP Appcache
  * Plugin URI: http://haveposts.com
  * Description: Allows your site to leverage the awesomeness of the HTML 5 Application Cache.
- * Version: 0.1.2
+ * Version: 0.1.3
  * Author: Jack Lenox
  * Author URI: http://haveposts.com
  * License: GPL2

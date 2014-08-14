@@ -3,7 +3,7 @@ Contributors: jacklenox
 Tags: appcache, caching, application cache, html5
 Requires at least: 3.6
 Tested up to: 3.9.2
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ Nothing. The value of this plugin is entirely derived from implicit caching. I.e
 Screenshots don't really do this plugin justice. I could screenshot load times of less than 100 milliseconds, but that would be crass.
 
 == Changelog ==
+
+= 0.1.3 =
+* Minor readme and documentation fixes.
 
 = 0.1.2 =
 * Initial commit.
