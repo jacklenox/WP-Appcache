@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WP AppCache
+ * Plugin Name: WP Appcache
  * Plugin URI: http://haveposts.com
  * Description: Allows your site to leverage the awesomeness of the HTML 5 Application Cache.
  * Version: 0.1.2

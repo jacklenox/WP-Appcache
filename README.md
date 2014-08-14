@@ -4,7 +4,7 @@ Allows your WordPress site to leverage the awesomeness of the HTML5 Application 
 
 ## Demo
 
-WP AppCache demo site: [wp-appcache-demo.haveposts.com](http://wp-appcache-demo.haveposts.com/)
+WP Appcache demo site: [wp-appcache-demo.haveposts.com](http://wp-appcache-demo.haveposts.com/)
 
 ## Tell me more
 

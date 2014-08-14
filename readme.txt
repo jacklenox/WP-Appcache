@@ -1,4 +1,4 @@
-=== WP AppCache ===
+=== WP Appcache ===
 Contributors: jacklenox
 Tags: appcache, caching, application cache, html5
 Requires at least: 3.6
