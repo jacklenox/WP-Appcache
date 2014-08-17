@@ -23,10 +23,10 @@ register_activation_hook( __FILE__, 'wp_appcache_update_timestamp' );
  *
  * @since 0.1.1
  */
-if ( ! is_admin() && ! in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) ) ) {
-	add_filter( 'init', wp_appcache_add_manifest );
+if ( ! is_admin() ) {
+	add_filter( 'init', 'wp_appcache_add_manifest' );
 	function wp_appcache_add_manifest() {
-		if ( ! is_user_logged_in() ) {
+		if ( ! is_user_logged_in() && ! in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) ) ) {
 			add_filter( 'language_attributes', 'wp_appcache_add_manifest_to_language_attributes' );
 
 			// Set the timestamp as a session variable
