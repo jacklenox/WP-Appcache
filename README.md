@@ -1,3 +1,7 @@
+# DEPRECATED
+
+### Very sorry, this plugin was a horrible mess and shouldn't be used by anyone. It was removed from the plugin repository some time ago and exists here only as an example of how not to build a WordPress plugin.
+
 # WP Appcache
 
 Allows your WordPress site to leverage the awesomeness of the HTML5 Application Cache.
